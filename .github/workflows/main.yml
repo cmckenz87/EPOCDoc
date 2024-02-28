@@ -1,0 +1,25 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main # Adjust this to match your source branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies and build
+        run: |
+          npm install
+          npm run build  # Or whatever command is used to build your project
+
+      - name: Deploy to build branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build  # Adjust this to match your build directory
+          publish_branch: gh-pages  # Adjust this to match your build branch

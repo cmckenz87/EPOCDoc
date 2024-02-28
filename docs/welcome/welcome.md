@@ -4,7 +4,7 @@ slug: /
 title: "Welcome!"
 ---
 
-# Welcome to the DiscOps Documentation site 2!
+# Welcome to the DiscOps Documentation site 2b!
 
 Please, feel free to browse around find what information you need.
 

@@ -1,4 +1,4 @@
-name: Build and Deploy
+_name: Build and Deploy
 on:
   push:
     branches:
@@ -20,6 +20,6 @@ jobs:
       - name: Deploy to build branch
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.ACCESS_TOKEN }}
           publish_dir: ./build
           publish_branch: gh-pages

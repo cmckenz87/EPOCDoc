@@ -42,7 +42,7 @@ class GCSS_DiscOps_Work_Equipment_Notification_Dispatch extends GCSS_DiscOps_Wor
 
 ### Inheritance
 
-See [Inheritance](http://localhost:3000/docs/Script%20basics/inheritance).
+See [Inheritance](/docs/Script%20basics/inheritance).
 
 Data transforms defined in a parent class can be run in the context of a child class, without requiring the data transform to be defined in the rules prototype of the latter. If the same rule name is defined in the parent class and child class, the child's function will be used at runtime.
 

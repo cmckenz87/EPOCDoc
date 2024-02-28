@@ -65,17 +65,10 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "docs/Getting Started/main",
-            sidebarID: "docsSideBar",
+            docId: "docs/introduction",
+            sidebarID: "gettingStartedSideBar",
             position: "left",
             label: "Docs",
-          },
-          {
-            type: "doc",
-            docId: "api/main",
-            sidebarID: "apiSideBar",
-            position: "left",
-            label: "API",
           },
         ],
       },

@@ -1,7 +1,6 @@
 ---
-sidebar_position: 1
-title: "APIs"
-slug: /api
+sidebar_position: 2
+title: "Inheritance"
 ---
 
 This is just a test page.

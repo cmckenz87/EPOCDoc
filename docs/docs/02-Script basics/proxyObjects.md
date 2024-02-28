@@ -1,7 +1,6 @@
 ---
-sidebar_position: 1
-title: "APIs"
-slug: /api
+sidebar_position: 3
+title: "Proxy objects"
 ---
 
 This is just a test page.
@@ -19,3 +18,11 @@ print("The area of the rectangle is:", area)
 def calculate_area(width, height):
     return width * height
 ```
+
+### ClipboardReference
+
+### PageList
+
+### ParameterPage
+
+### ParameterValue

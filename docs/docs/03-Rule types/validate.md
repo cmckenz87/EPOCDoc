@@ -1,7 +1,6 @@
 ---
-sidebar_position: 1
-title: "APIs"
-slug: /api
+sidebar_position: 6
+title: "Validate"
 ---
 
 This is just a test page.

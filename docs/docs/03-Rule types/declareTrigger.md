@@ -1,14 +1,12 @@
 ---
-sidebar_position: 1
-title: FAQs
-slug: /faqs
+sidebar_position: 3
+title: "Declare trigger"
 ---
 
-This page contains information about the Docs Tab.
-
-### 
+This is just a test page.
 
 ### Python:
+
 ```python
 # Use the function and print the result.
 width = 10

@@ -1,7 +1,6 @@
 ---
-sidebar_position: 1
-title: "APIs"
-slug: /api
+sidebar_position: 4
+title: "Flow"
 ---
 
 This is just a test page.

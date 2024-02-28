@@ -1,14 +1,12 @@
 ---
-sidebar_position: 1
-title: Main
-slug: /docs
+sidebar_position: 5
+title: "Flow action"
 ---
 
-This page contains information about the Docs Tab.
-
-### 
+This is just a test page.
 
 ### Python:
+
 ```python
 # Use the function and print the result.
 width = 10

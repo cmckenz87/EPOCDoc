@@ -1,7 +1,6 @@
 ---
 sidebar_position: 1
-title: "APIs"
-slug: /api
+title: "Introduction"
 ---
 
 This is just a test page.

@@ -1,7 +1,6 @@
 ---
 sidebar_position: 1
-title: "APIs"
-slug: /api
+title: "Rules prototype"
 ---
 
 This is just a test page.

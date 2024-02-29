@@ -7,9 +7,9 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 
 const config = {
-  title: "DiscOps Docs",
-  tagline: "Documentation for EY's DiscOps Project.",
-  favicon: "img/logo.svg",
+  title: "EPOC Doc",
+  tagline: "Documentation for EY's EPOC Project.",
+  favicon: "img/EYLogo.png",
 
   // Production URL here:
   url: "https://stevenz1998.github.io/",
@@ -55,10 +55,10 @@ const config = {
     ({
       // Change here to modify navbar.
       navbar: {
-        title: "Home",
+        title: "EPOC",
         logo: {
-          alt: "Disc Ops Logo",
-          src: "img/logo.svg",
+          alt: "EY",
+          src: "img/EYLogo.png",
         },
 
         // Items in the navbar.
@@ -76,11 +76,15 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Navigation",
             items: [
               {
                 label: "Home",
                 to: "/",
+              },
+              {
+                label: "Docs",
+                to: "/docs/introduction",
               },
             ],
           },
@@ -93,18 +97,17 @@ const config = {
               },
               {
                 href: "https://github.com/StevenZ1998/DiscOps_Docs",
-                label: "Docs GitHub",
+                label: "EPOC Doc Repository",
                 position: "right",
               },
               {
                 href: "https://github.com/cmckenz87/discops2024",
-                label: "DiscOps Github",
+                label: "EPOC Repository",
                 position: "right",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} DiscOps Docs, EY.`,
       },
       prism: {
         theme: prismThemes.github,
